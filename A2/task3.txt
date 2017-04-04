@@ -1,0 +1,32 @@
+Hansard Testing
+
+Perplexity(English)
+
+MLE:6.2844
+delta=0.1:62.0850
+delta=0.3:85.9309
+
+delta=0.6:111.3033
+delta=0.06:55.2218
+delta=0.006:41.1472
+
+delta=0.9£º132.0448
+delta=1.0: 138.3632
+
+
+Perplexity(French)
+
+MLE:8.2025
+delta=0.1:68.4491
+delta=0.3:99.3561
+
+delta=0.6:132.8640
+delta=0.06:59.6163
+delta=0.006:40.8753
+
+delta=0.9:160.6682
+delta=1.0:169.1979
+
+Firstly, the perplexity of MLE is obviously less than that of smoothing.
+Also, we could learn that there is no big change among delta=0.3/0.6/0/9 becuase the difference(0.3) is not big enough to change
+the perplexity.However, as delta decreases from 0.6 to 0.006, the perplexity is increased.
